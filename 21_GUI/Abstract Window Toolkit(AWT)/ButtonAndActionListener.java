@@ -2,11 +2,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-class MyFrame extends Frame implements ActionListener {
+class YourFrame12 extends Frame implements ActionListener {
     int count = 0;
     Label lb;
     Button bn;
-    public MyFrame(){
+    public YourFrame12(){
         super("Button Demo");
 
         lb = new Label("   "+count);
